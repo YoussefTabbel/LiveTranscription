@@ -1,8 +1,7 @@
-flask==2.3.3
-openai-whisper==20231214
-sounddevice==0.4.6
-soundfile==0.12.1
-numpy==1.24.3
-yt-dlp==2024.01.01
-pydub==0.25.1
-
+flask>=2.3
+flask-cors>=4.0
+faster-whisper>=1.0
+numpy>=1.24
+yt-dlp>=2024.1
+nvidia-cublas-cu12
+nvidia-cudnn-cu12
